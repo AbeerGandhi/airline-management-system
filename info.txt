@@ -1,0 +1,27 @@
+This would be the structure
+airline-management/
+│── src/
+│   ├── main/
+│   │   ├── java/com/example/airline/
+│   │   │   ├── controller/
+│   │   │   │   ├── FlightController.java
+│   │   │   │   ├── TicketController.java
+│   │   │   ├── model/
+│   │   │   │   ├── Flight.java
+│   │   │   │   ├── Ticket.java
+│   │   │   ├── repository/
+│   │   │   │   ├── FlightRepository.java
+│   │   │   │   ├── TicketRepository.java
+│   │   │   ├── service/
+│   │   │   │   ├── FlightService.java
+│   │   │   │   ├── TicketService.java
+│   │   │   ├── exception/
+│   │   │   │   ├── ResourceNotFoundException.java
+│   │   │   ├── AirlineManagementApplication.java
+│   ├── resources/
+│   │   ├── application.properties
+│── pom.xml
+
+
+run this from AirlineManagementApplication.java
+and run this on browser http://localhost:8080/
